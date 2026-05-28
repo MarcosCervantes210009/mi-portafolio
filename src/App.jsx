@@ -277,8 +277,8 @@ export default function Portfolio() {
           {[
             { label:"WhatsApp", value:"+52 449 363 5139", href:"https://wa.me/524493635139" },
             { label:"Email", value:"marcosca36@gmail.com", href:"mailto:marcosca36@gmail.com" },
-            { label:"LinkedIn", value:"linkedin.com/in/marcoscervantes", href:"#" },
-            { label:"GitHub", value:"github.com/marcosdev161122", href:"https://github.com/marcosdev161122" },
+            { label:"LinkedIn", value:"linkedin.com/in/marcos-esteban-cervantes-armada-7b47211a5", href:"https://www.linkedin.com/in/marcos-esteban-cervantes-armada-7b47211a5" },
+            { label:"GitHub", value:"github.com/Marcos210009", href:"https://github.com/Marcos210009" },
           ].map(l => (
             <a key={l.label} href={l.href} className="contact-link" target="_blank" rel="noopener noreferrer">
               <span className="contact-link-label">{l.label}</span>
