@@ -1,76 +1,6 @@
 {
   "projects": [
     {
-      "id": "aurexa-platform",
-      "category": "product",
-      "client": "AUREXA",
-      "tags": [
-        "Next.js",
-        "React",
-        "Supabase",
-        "PostgreSQL",
-        "n8n"
-      ],
-      "es": {
-        "name": "AUREXA Platform",
-        "desc": "Plataforma web para conectar marketing, prospectos, agenda compartida, portal del cliente, analítica, comisiones y administración. Autenticación y roles sobre Supabase.",
-        "flow": [
-          "Marketing",
-          "CRM",
-          "Equipo"
-        ],
-        "client": "AUREXA",
-        "tags": [
-          "Next.js",
-          "React",
-          "Supabase",
-          "PostgreSQL",
-          "n8n"
-        ]
-      },
-      "en": {
-        "name": "AUREXA Platform",
-        "desc": "Web platform connecting marketing, leads, shared scheduling, a client portal, analytics, commissions and administration. Supabase authentication and user roles.",
-        "flow": [
-          "Marketing",
-          "CRM",
-          "Team"
-        ],
-        "client": "AUREXA",
-        "tags": [
-          "Next.js",
-          "React",
-          "Supabase",
-          "PostgreSQL",
-          "n8n"
-        ]
-      },
-      "case": {
-        "es": {
-          "problem": "Reunir la operación de marketing y ventas en un mismo sistema, con distintos perfiles de usuario y acceso del cliente a su información.",
-          "built": [
-            "CRM de prospectos y seguimiento comercial.",
-            "Marketing, copys, calendario compartido y reportes.",
-            "Portal del cliente, analítica y módulos de comisiones y administración.",
-            "Autenticación, perfiles y políticas de acceso en Supabase.",
-            "Integraciones por API con n8n y Hotmart."
-          ],
-          "result": "Una plataforma que conecta la gestión comercial y la operación del servicio. Desarrollo y despliegue de la aplicación web en Vercel."
-        },
-        "en": {
-          "problem": "Bring marketing and sales operations into one system, supporting different user roles and client access to their information.",
-          "built": [
-            "Lead CRM and sales follow-up.",
-            "Marketing, copywriting, shared scheduling and reporting.",
-            "Client portal, analytics, commissions and administration modules.",
-            "Supabase authentication, profiles and access policies.",
-            "API integrations with n8n and Hotmart."
-          ],
-          "result": "A platform connecting sales management and service operations. Web application development and deployment on Vercel."
-        }
-      }
-    },
-    {
       "id": "workshop-crm",
       "category": "product",
       "client": "Workshop / Eagles Gear",
@@ -205,8 +135,7 @@
           ],
           "result": "Delivery of a responsive website and source code, incorporating client-requested photography, composition and presentation revisions."
         }
-      },
-      "url": "https://detoch-more-web.vercel.app"
+      }
     },
     {
       "id": "pdf-parser",
@@ -277,42 +206,6 @@
           "result": "Processed approximately 103,000 records, creating a structured foundation for analysis."
         }
       }
-    },
-    {
-      "id": "aurexa-landing",
-      "category": "web",
-      "client": "AUREXA",
-      "tags": [
-        "Vite",
-        "React",
-        "Tailwind CSS",
-        "Vercel"
-      ],
-      "es": {
-        "name": "AUREXA — identidad y landing",
-        "desc": "Rediseño de la presencia web de AUREXA. Landing con identidad visual propia, presentación de soluciones y servicios, experiencia responsive, acceso a la plataforma y despliegue en Vercel.",
-        "flow": null,
-        "client": "AUREXA",
-        "tags": [
-          "Vite",
-          "React",
-          "Tailwind CSS",
-          "Vercel"
-        ]
-      },
-      "en": {
-        "name": "AUREXA — Brand & Landing",
-        "desc": "Redesign of AUREXA’s web presence. Landing page with a distinct visual identity, solutions and services, responsive layouts, platform access and Vercel deployment.",
-        "flow": null,
-        "client": "AUREXA",
-        "tags": [
-          "Vite",
-          "React",
-          "Tailwind CSS",
-          "Vercel"
-        ]
-      },
-      "url": "https://aurexalanding.vercel.app"
     },
     {
       "id": "workshop-campus",
@@ -642,45 +535,9 @@
       }
     },
     {
-      "id": "aurexa-mobile",
-      "category": "product",
-      "client": "Aurexa",
-      "tags": [
-        "React Native",
-        "Expo",
-        "Node.js",
-        "PostgreSQL",
-        "JWT"
-      ],
-      "es": {
-        "name": "Aurexa — App de automatización con IA",
-        "desc": "App móvil multitenant para automatización con autenticación JWT, roles por cliente, dashboards de flujos n8n y consulta de ejecuciones. Backend Node.js y PostgreSQL en VPS.",
-        "client": "Aurexa",
-        "tags": [
-          "React Native",
-          "Expo",
-          "Node.js",
-          "PostgreSQL",
-          "JWT"
-        ]
-      },
-      "en": {
-        "name": "Aurexa — AI Automation App",
-        "desc": "Multi-tenant automation mobile app with JWT authentication, per-client roles, n8n workflow dashboards and execution monitoring. Node.js and PostgreSQL backend on a VPS.",
-        "client": "Aurexa",
-        "tags": [
-          "React Native",
-          "Expo",
-          "Node.js",
-          "PostgreSQL",
-          "JWT"
-        ]
-      }
-    },
-    {
       "id": "neural-engine",
       "category": "ai",
-      "client": "Aurexa",
+      "client": "Proyecto independiente",
       "tags": [
         "Python",
         "NumPy",
@@ -691,7 +548,7 @@
       "es": {
         "name": "Motor de IA Propietario",
         "desc": "Red neuronal construida desde cero en NumPy — sin frameworks ML. Clasificación multi-intento, backend FastAPI, integración PostgreSQL. Arquitectura multi-industria.",
-        "client": "Aurexa",
+        "client": "Proyecto independiente",
         "tags": [
           "Python",
           "NumPy",
@@ -703,7 +560,7 @@
       "en": {
         "name": "Proprietary AI Engine",
         "desc": "Neural network built from scratch in NumPy — no ML frameworks. Multi-intent classification, FastAPI backend, PostgreSQL integration. Multi-industry architecture.",
-        "client": "Aurexa",
+        "client": "Independent project",
         "tags": [
           "Python",
           "NumPy",
@@ -716,7 +573,7 @@
     {
       "id": "importex",
       "category": "data",
-      "client": "Aurexa / UNE",
+      "client": "UNE Bienes Raíces",
       "tags": [
         "n8n",
         "PostgreSQL",
@@ -726,7 +583,7 @@
       "es": {
         "name": "Sistema SAT Importex",
         "desc": "Flujo n8n para procesar registros SAT de importadores y exportadores, detectar nuevos RFCs, puntuar oportunidades y almacenar resultados. Integración con fuentes como DOF, Compranet e INEGI DENUE.",
-        "client": "Aurexa / UNE",
+        "client": "UNE Bienes Raíces",
         "tags": [
           "n8n",
           "PostgreSQL",
@@ -737,7 +594,7 @@
       "en": {
         "name": "SAT Importex Intelligence System",
         "desc": "n8n workflow processing SAT importer and exporter records, detecting new RFCs, scoring opportunities and storing results. Integrates sources including DOF, Compranet and INEGI DENUE.",
-        "client": "Aurexa / UNE",
+        "client": "UNE Bienes Raíces",
         "tags": [
           "n8n",
           "PostgreSQL",
@@ -938,6 +795,11 @@
           "n8n",
           "PostgreSQL",
           "CRM"
+        ],
+        "flow": [
+          "Propiedades",
+          "Catálogo",
+          "Contacto"
         ]
       },
       "en": {
@@ -950,8 +812,14 @@
           "n8n",
           "PostgreSQL",
           "CRM"
+        ],
+        "flow": [
+          "Properties",
+          "Catalog",
+          "Contact"
         ]
-      }
+      },
+      "url": "https://unebienesraices.com.mx/"
     },
     {
       "id": "trucking-desktop",
@@ -1223,7 +1091,7 @@
       "empty": "No hay proyectos con esa búsqueda. Prueba otra tecnología o categoría.",
       "aboutLabel": "03 / PERFIL",
       "aboutTitle": "Entre el código<br>y la operación.",
-      "aboutText": "Soy Marcos Cervantes Armada, ingeniero de software en Aguascalientes y cofundador de AUREXA. Trabajo en la intersección del desarrollo full stack, la integración de sistemas y la automatización con inteligencia artificial.",
+      "aboutText": "Soy Marcos Cervantes Armada, ingeniero de software en Aguascalientes. Trabajo en la intersección del desarrollo full stack, la integración de sistemas y la automatización con inteligencia artificial.",
       "aboutText2": "Mi experiencia incluye transporte, sistemas empresariales, bienes raíces, lanzamientos digitales e industria. He construido herramientas para usuarios internos, coordinado equipos de desarrollo y conectado procesos que antes dependían de trabajo manual.",
       "aboutText3": "Me interesa entender el problema completo: cómo entra la información, quién la necesita y qué debe pasar después. Desde ahí diseño, desarrollo e integro el sistema.",
       "education": "Formación",
@@ -1255,7 +1123,7 @@
       "web": "Web",
       "experiment": "Experimentos",
       "identitySubtitle": "Software / IA / Automatización",
-      "heroEyebrow": "INGENIERO DE SOFTWARE / COFUNDADOR DE AUREXA",
+      "heroEyebrow": "INGENIERO DE SOFTWARE / IA Y AUTOMATIZACIÓN",
       "edition": "PORTAFOLIO — 2026",
       "professionalRole": "Ingeniero de software full stack<br><span>Especialista en IA y automatización</span>",
       "workshopStack": "CRM · IA · n8n",
@@ -1302,7 +1170,7 @@
       "empty": "No projects match your search. Try another technology or category.",
       "aboutLabel": "03 / ABOUT",
       "aboutTitle": "Between code<br>and operations.",
-      "aboutText": "I’m Marcos Cervantes Armada, a software engineer based in Aguascalientes and co-founder of AUREXA. I work at the intersection of full-stack development, systems integration and AI automation.",
+      "aboutText": "I’m Marcos Cervantes Armada, a software engineer based in Aguascalientes. I work at the intersection of full-stack development, systems integration and AI automation.",
       "aboutText2": "My experience spans transportation, enterprise systems, real estate, digital course launches and manufacturing. I’ve built internal tools, coordinated development teams and connected processes that previously depended on manual work.",
       "aboutText3": "I like to understand the whole problem: how information enters, who needs it and what should happen next. From there, I design, develop and integrate the system.",
       "education": "Education",
@@ -1334,7 +1202,7 @@
       "web": "Web",
       "experiment": "Experiments",
       "identitySubtitle": "Software / AI / Automation",
-      "heroEyebrow": "SOFTWARE ENGINEER / CO-FOUNDER AT AUREXA",
+      "heroEyebrow": "SOFTWARE ENGINEER / AI & AUTOMATION",
       "edition": "PORTFOLIO — 2026",
       "professionalRole": "Full-Stack Engineer<br><span>AI & Automation Specialist</span>",
       "workshopStack": "CRM · AI · n8n",
@@ -1355,20 +1223,6 @@
     }
   },
   "timeline": [
-    {
-      "es": [
-        "2026 — presente",
-        "Cofundador · Desarrollo de software e IA",
-        "AUREXA",
-        "Productos web y móviles, automatización empresarial e integración de CRM, marketing, clientes y datos."
-      ],
-      "en": [
-        "2026 — present",
-        "Co-founder · Software & AI Development",
-        "AUREXA",
-        "Web and mobile products, business automation and integration of CRM, marketing, clients and data."
-      ]
-    },
     {
       "es": [
         "Ago — Sep 2026",
