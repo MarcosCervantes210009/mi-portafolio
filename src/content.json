@@ -1,0 +1,1640 @@
+{
+  "projects": [
+    {
+      "id": "aurexa-platform",
+      "category": "product",
+      "client": "AUREXA",
+      "tags": [
+        "Next.js",
+        "React",
+        "Supabase",
+        "PostgreSQL",
+        "n8n"
+      ],
+      "es": {
+        "name": "AUREXA Platform",
+        "desc": "Plataforma web para conectar marketing, prospectos, agenda compartida, portal del cliente, analítica, comisiones y administración. Autenticación y roles sobre Supabase.",
+        "flow": [
+          "Marketing",
+          "CRM",
+          "Equipo"
+        ],
+        "client": "AUREXA",
+        "tags": [
+          "Next.js",
+          "React",
+          "Supabase",
+          "PostgreSQL",
+          "n8n"
+        ]
+      },
+      "en": {
+        "name": "AUREXA Platform",
+        "desc": "Web platform connecting marketing, leads, shared scheduling, a client portal, analytics, commissions and administration. Supabase authentication and user roles.",
+        "flow": [
+          "Marketing",
+          "CRM",
+          "Team"
+        ],
+        "client": "AUREXA",
+        "tags": [
+          "Next.js",
+          "React",
+          "Supabase",
+          "PostgreSQL",
+          "n8n"
+        ]
+      },
+      "case": {
+        "es": {
+          "problem": "Reunir la operación de marketing y ventas en un mismo sistema, con distintos perfiles de usuario y acceso del cliente a su información.",
+          "built": [
+            "CRM de prospectos y seguimiento comercial.",
+            "Marketing, copys, calendario compartido y reportes.",
+            "Portal del cliente, analítica y módulos de comisiones y administración.",
+            "Autenticación, perfiles y políticas de acceso en Supabase.",
+            "Integraciones por API con n8n y Hotmart."
+          ],
+          "result": "Una plataforma que conecta la gestión comercial y la operación del servicio. Desarrollo y despliegue de la aplicación web en Vercel."
+        },
+        "en": {
+          "problem": "Bring marketing and sales operations into one system, supporting different user roles and client access to their information.",
+          "built": [
+            "Lead CRM and sales follow-up.",
+            "Marketing, copywriting, shared scheduling and reporting.",
+            "Client portal, analytics, commissions and administration modules.",
+            "Supabase authentication, profiles and access policies.",
+            "API integrations with n8n and Hotmart."
+          ],
+          "result": "A platform connecting sales management and service operations. Web application development and deployment on Vercel."
+        }
+      }
+    },
+    {
+      "id": "workshop-crm",
+      "category": "product",
+      "client": "Workshop / Eagles Gear",
+      "tags": [
+        "Next.js",
+        "React",
+        "Supabase",
+        "SQL",
+        "n8n"
+      ],
+      "es": {
+        "name": "Workshop — CRM de lanzamientos",
+        "desc": "CRM para un lanzamiento digital: leads, detalle de prospecto, seguimiento, calendarios, reportes, marketing, centro de copys y administración. Integración con automatizaciones y campus.",
+        "flow": [
+          "Lead Ads",
+          "CRM",
+          "Seguimiento"
+        ],
+        "client": "Workshop / Eagles Gear",
+        "tags": [
+          "Next.js",
+          "React",
+          "Supabase",
+          "SQL",
+          "n8n"
+        ]
+      },
+      "en": {
+        "name": "Workshop — Launch CRM",
+        "desc": "CRM for a digital course launch: leads, prospect details, follow-up, calendars, reporting, marketing, a copywriting center and administration. Connected to automations and the learning platform.",
+        "flow": [
+          "Lead Ads",
+          "CRM",
+          "Follow-up"
+        ],
+        "client": "Workshop / Eagles Gear",
+        "tags": [
+          "Next.js",
+          "React",
+          "Supabase",
+          "SQL",
+          "n8n"
+        ]
+      },
+      "case": {
+        "es": {
+          "problem": "Conectar la captación de prospectos de campañas con el seguimiento comercial, el lanzamiento del curso y la información del alumno.",
+          "built": [
+            "CRM con leads, calendarios, detalle del prospecto y reportes.",
+            "Centro de copys y flujos de marketing para el lanzamiento.",
+            "Webhooks, limpieza de Facebook Lead Ads y envíos programados con n8n.",
+            "Integración con el campus y migraciones SQL.",
+            "Reportes por WhatsApp y automatizaciones de atención."
+          ],
+          "result": "Una base operativa para consultar prospectos, coordinar seguimiento y conectar las herramientas del lanzamiento."
+        },
+        "en": {
+          "problem": "Connect campaign lead capture to sales follow-up, course launch operations and student information.",
+          "built": [
+            "CRM with leads, calendars, prospect details and reports.",
+            "Copywriting center and launch marketing workflows.",
+            "Webhooks, Facebook Lead Ads cleanup and scheduled messaging with n8n.",
+            "Learning platform integration and SQL migrations.",
+            "WhatsApp reporting and support automations."
+          ],
+          "result": "An operational foundation to manage prospects, coordinate follow-up and connect launch tools."
+        }
+      }
+    },
+    {
+      "id": "detoch",
+      "category": "web",
+      "client": "Detoch More",
+      "tags": [
+        "React",
+        "Responsive UI",
+        "CSS",
+        "Vercel"
+      ],
+      "es": {
+        "name": "Detoch More — ingeniería y precisión",
+        "desc": "Sitio corporativo para una empresa de maquinados. Diseño y desarrollo responsive con enfoque en ingeniería, metrología y experiencia industrial; selección de fotografías, galería, clientes y contacto por WhatsApp.",
+        "flow": [
+          "Ingeniería",
+          "Portafolio",
+          "Contacto"
+        ],
+        "client": "Detoch More",
+        "tags": [
+          "React",
+          "Diseño adaptable",
+          "CSS",
+          "Vercel"
+        ]
+      },
+      "en": {
+        "name": "Detoch More — Engineering & Precision",
+        "desc": "Corporate website for a machining business. Responsive design and development focused on engineering, metrology and industrial expertise; photography selection, gallery, clients and WhatsApp contact.",
+        "flow": [
+          "Engineering",
+          "Portfolio",
+          "Contact"
+        ],
+        "client": "Detoch More",
+        "tags": [
+          "React",
+          "Responsive UI",
+          "CSS",
+          "Vercel"
+        ]
+      },
+      "case": {
+        "es": {
+          "problem": "Presentar la capacidad de maquinado y la experiencia industrial de la empresa de forma clara para ingeniería, compras, mantenimiento y calidad.",
+          "built": [
+            "Diseño y desarrollo del sitio corporativo.",
+            "Selección y organización de fotografías de piezas y procesos.",
+            "Jerarquía de contenido para ingeniería, precisión y metrología.",
+            "Secciones de aplicaciones, calidad y clientes.",
+            "Ajustes para móvil, contacto por WhatsApp y política de privacidad."
+          ],
+          "result": "Entrega del sitio responsive y del código fuente, con las revisiones de fotografías, composición y presentación solicitadas por el cliente."
+        },
+        "en": {
+          "problem": "Clearly communicate machining capabilities and industrial experience to engineering, procurement, maintenance and quality teams.",
+          "built": [
+            "Corporate website design and development.",
+            "Photography selection and organization for parts and processes.",
+            "Content hierarchy focused on engineering, precision and metrology.",
+            "Applications, quality and clients sections.",
+            "Mobile refinements, WhatsApp contact and privacy policy."
+          ],
+          "result": "Delivery of a responsive website and source code, incorporating client-requested photography, composition and presentation revisions."
+        }
+      },
+      "url": "https://detoch-more-web.vercel.app"
+    },
+    {
+      "id": "pdf-parser",
+      "category": "data",
+      "client": "Cliente del sector bancario",
+      "tags": [
+        "Python",
+        "PDF Parsing",
+        "PostgreSQL",
+        "ETL",
+        "Deduplicación"
+      ],
+      "es": {
+        "name": "De documentos a datos utilizables",
+        "desc": "Extracción y procesamiento de aproximadamente 103,000 registros desde documentos PDF para un cliente del sector bancario. Limpieza, deduplicación y panel de inteligencia de negocios.",
+        "flow": [
+          "PDF",
+          "ETL",
+          "Dashboard"
+        ],
+        "client": "Cliente del sector bancario",
+        "tags": [
+          "Python",
+          "Extracción de PDF",
+          "PostgreSQL",
+          "ETL",
+          "Deduplicación"
+        ]
+      },
+      "en": {
+        "name": "From documents to usable data",
+        "desc": "PDF parser handling approximately 103,000 records for a banking-sector client. Extraction, cleaning, deduplication and a business intelligence dashboard.",
+        "flow": [
+          "PDF",
+          "ETL",
+          "Dashboard"
+        ],
+        "client": "Banking-sector client",
+        "tags": [
+          "Python",
+          "PDF Parsing",
+          "PostgreSQL",
+          "ETL",
+          "Deduplication"
+        ]
+      },
+      "case": {
+        "es": {
+          "problem": "Convertir información contenida en documentos PDF en registros estructurados y utilizables para un cliente del sector bancario.",
+          "built": [
+            "Desarrollo del parser y extracción de registros desde PDF.",
+            "Limpieza y normalización para el procesamiento posterior.",
+            "Deduplicación para evitar registros repetidos.",
+            "Carga y organización de datos para consulta.",
+            "Panel de inteligencia de negocios."
+          ],
+          "result": "Procesamiento de aproximadamente 103,000 registros, con una base estructurada para su análisis."
+        },
+        "en": {
+          "problem": "Turn information contained in PDF documents into structured, usable records for a banking-sector client.",
+          "built": [
+            "PDF parser development and record extraction.",
+            "Cleaning and normalization for downstream processing.",
+            "Deduplication to prevent repeated records.",
+            "Data loading and organization for querying.",
+            "Business intelligence dashboard."
+          ],
+          "result": "Processed approximately 103,000 records, creating a structured foundation for analysis."
+        }
+      }
+    },
+    {
+      "id": "aurexa-landing",
+      "category": "web",
+      "client": "AUREXA",
+      "tags": [
+        "Vite",
+        "React",
+        "Tailwind CSS",
+        "Vercel"
+      ],
+      "es": {
+        "name": "AUREXA — identidad y landing",
+        "desc": "Rediseño de la presencia web de AUREXA. Landing con identidad visual propia, presentación de soluciones y servicios, experiencia responsive, acceso a la plataforma y despliegue en Vercel.",
+        "flow": null,
+        "client": "AUREXA",
+        "tags": [
+          "Vite",
+          "React",
+          "Tailwind CSS",
+          "Vercel"
+        ]
+      },
+      "en": {
+        "name": "AUREXA — Brand & Landing",
+        "desc": "Redesign of AUREXA’s web presence. Landing page with a distinct visual identity, solutions and services, responsive layouts, platform access and Vercel deployment.",
+        "flow": null,
+        "client": "AUREXA",
+        "tags": [
+          "Vite",
+          "React",
+          "Tailwind CSS",
+          "Vercel"
+        ]
+      },
+      "url": "https://aurexalanding.vercel.app"
+    },
+    {
+      "id": "workshop-campus",
+      "category": "product",
+      "client": "Workshop / Eagles Gear",
+      "tags": [
+        "Next.js",
+        "Supabase",
+        "SQL",
+        "Auth"
+      ],
+      "es": {
+        "name": "Campus de cursos técnicos",
+        "desc": "Campus con catálogo de cursos, lecciones, materiales, progreso del alumno, autenticación y administración. Migraciones SQL e integración CRM–campus para conectar la operación comercial y educativa.",
+        "flow": null,
+        "client": "Workshop / Eagles Gear",
+        "tags": [
+          "Next.js",
+          "Supabase",
+          "SQL",
+          "Autenticación"
+        ]
+      },
+      "en": {
+        "name": "Technical Learning Platform",
+        "desc": "Learning platform with a course catalog, lessons, materials, student progress, authentication and administration. SQL migrations and CRM–campus integration connect sales and learning operations.",
+        "flow": null,
+        "client": "Workshop / Eagles Gear",
+        "tags": [
+          "Next.js",
+          "Supabase",
+          "SQL",
+          "Auth"
+        ]
+      }
+    },
+    {
+      "id": "workshop-rag",
+      "category": "ai",
+      "client": "Workshop / Eagles Gear",
+      "tags": [
+        "ManyChat",
+        "n8n",
+        "RAG",
+        "LLMs",
+        "Webhooks"
+      ],
+      "es": {
+        "name": "ManyChat + IA — atención contextual",
+        "desc": "Flujo asíncrono de atención con ManyChat, n8n e IA con recuperación de información (RAG). Conecta las conversaciones con información del curso y automatiza respuestas dentro del lanzamiento.",
+        "flow": null,
+        "client": "Workshop / Eagles Gear",
+        "tags": [
+          "ManyChat",
+          "n8n",
+          "RAG",
+          "LLMs",
+          "Webhooks"
+        ]
+      },
+      "en": {
+        "name": "ManyChat + AI — Contextual Support",
+        "desc": "Asynchronous support workflow using ManyChat, n8n and AI with retrieval-augmented generation (RAG). Connects conversations to course information and automates responses during the launch.",
+        "flow": null,
+        "client": "Workshop / Eagles Gear",
+        "tags": [
+          "ManyChat",
+          "n8n",
+          "RAG",
+          "LLMs",
+          "Webhooks"
+        ]
+      }
+    },
+    {
+      "id": "automated-calls",
+      "category": "automation",
+      "client": "UNE / Workshop",
+      "tags": [
+        "Twilio",
+        "n8n",
+        "APIs",
+        "Webhooks"
+      ],
+      "es": {
+        "name": "Telefonía y seguimiento automático",
+        "desc": "Automatizaciones de llamadas para seguimiento de prospectos. Integración de Twilio y n8n con la operación comercial, registro de actividad y flujos de comunicación.",
+        "flow": null,
+        "client": "UNE / Workshop",
+        "tags": [
+          "Twilio",
+          "n8n",
+          "APIs",
+          "Webhooks"
+        ]
+      },
+      "en": {
+        "name": "Automated Calling & Follow-up",
+        "desc": "Calling automations for prospect follow-up. Twilio and n8n integrations connect sales operations, activity logging and communication workflows.",
+        "flow": null,
+        "client": "UNE / Workshop",
+        "tags": [
+          "Twilio",
+          "n8n",
+          "APIs",
+          "Webhooks"
+        ]
+      }
+    },
+    {
+      "id": "lead-recovery",
+      "category": "data",
+      "client": "UNE Bienes Raíces",
+      "tags": [
+        "n8n",
+        "PostgreSQL",
+        "Webhooks",
+        "ETL"
+      ],
+      "es": {
+        "name": "Recuperación de leads perdidos",
+        "desc": "Flujo de recuperación para recuperar prospectos que no llegaron correctamente al proceso de atención y reinsertarlos en el seguimiento. Complemento del sistema de avisos y asignación de leads.",
+        "flow": null,
+        "client": "UNE Bienes Raíces",
+        "tags": [
+          "n8n",
+          "PostgreSQL",
+          "Webhooks",
+          "ETL"
+        ]
+      },
+      "en": {
+        "name": "Lost Lead Recovery",
+        "desc": "Backfill workflow recovering prospects that did not reach the follow-up process and reinserting them into the pipeline. Complements lead notifications and assignment.",
+        "flow": null,
+        "client": "UNE Bienes Raíces",
+        "tags": [
+          "n8n",
+          "PostgreSQL",
+          "Webhooks",
+          "ETL"
+        ]
+      }
+    },
+    {
+      "id": "inmoapp",
+      "category": "automation",
+      "client": "UNE Bienes Raíces",
+      "tags": [
+        "Puppeteer",
+        "Node.js",
+        "n8n",
+        "Monday.com",
+        "GraphQL"
+      ],
+      "es": {
+        "name": "INMOAPP — automatización de navegador",
+        "desc": "Integración de procesos inmobiliarios mediante automatización de navegador. Flujos con n8n, Puppeteer y servicios Node.js para trabajar con propiedades y fotografías provenientes de Monday.com.",
+        "flow": null,
+        "client": "UNE Bienes Raíces",
+        "tags": [
+          "Puppeteer",
+          "Node.js",
+          "n8n",
+          "Monday.com",
+          "GraphQL"
+        ]
+      },
+      "en": {
+        "name": "INMOAPP — Browser Automation",
+        "desc": "Real estate process integration through browser automation. n8n, Puppeteer and Node.js services handle property information and photographs coming from Monday.com.",
+        "flow": null,
+        "client": "UNE Bienes Raíces",
+        "tags": [
+          "Puppeteer",
+          "Node.js",
+          "n8n",
+          "Monday.com",
+          "GraphQL"
+        ]
+      }
+    },
+    {
+      "id": "qr-registration",
+      "category": "automation",
+      "client": "Proyecto de registro de eventos",
+      "tags": [
+        "Google Apps Script",
+        "Google Forms",
+        "Google Sheets",
+        "QR",
+        "Email"
+      ],
+      "es": {
+        "name": "Registro de eventos con QR",
+        "desc": "Automatización de registros con Google Forms y Sheets: lectura de asistentes y talleres seleccionados, generación de códigos QR, envío de confirmaciones por correo y registro en la hoja de cálculo.",
+        "flow": null,
+        "client": "Proyecto de registro de eventos",
+        "tags": [
+          "Google Apps Script",
+          "Google Forms",
+          "Google Sheets",
+          "QR",
+          "Correo"
+        ]
+      },
+      "en": {
+        "name": "QR Event Registration",
+        "desc": "Registration automation with Google Forms and Sheets: attendee and workshop data, QR generation, email confirmations and spreadsheet records.",
+        "flow": null,
+        "client": "Event registration project",
+        "tags": [
+          "Google Apps Script",
+          "Google Forms",
+          "Google Sheets",
+          "QR",
+          "Email"
+        ]
+      }
+    },
+    {
+      "id": "resilient-n8n",
+      "category": "ai",
+      "client": "Reto técnico de integraciones",
+      "tags": [
+        "n8n",
+        "LLMs",
+        "PostgreSQL",
+        "Webhooks",
+        "JSON"
+      ],
+      "es": {
+        "name": "Clasificación IA con trazabilidad",
+        "desc": "Flujo de recepción por webhook, clasificación de mensajes por intención, persistencia, prevención de duplicados, manejo de errores de IA y registro de ejecuciones. Documentación y prueba de carga de aproximadamente 1,000 eventos.",
+        "flow": null,
+        "client": "Reto técnico de integraciones",
+        "tags": [
+          "n8n",
+          "LLMs",
+          "PostgreSQL",
+          "Webhooks",
+          "JSON"
+        ]
+      },
+      "en": {
+        "name": "AI Classification with Execution Logs",
+        "desc": "Webhook ingestion workflow with intent classification, persistence, duplicate prevention, AI error handling and execution logs. Documentation and a load test using approximately 1,000 events.",
+        "flow": null,
+        "client": "Systems integration challenge",
+        "tags": [
+          "n8n",
+          "LLMs",
+          "PostgreSQL",
+          "Webhooks",
+          "JSON"
+        ]
+      }
+    },
+    {
+      "id": "paul-web",
+      "category": "web",
+      "client": "Proyecto inmobiliario",
+      "tags": [
+        "Web Development",
+        "Responsive UI",
+        "CSS"
+      ],
+      "es": {
+        "name": "Sitio profesional inmobiliario",
+        "desc": "Desarrollo de una página de presencia profesional para el sector inmobiliario, con presentación de servicios y canales de contacto. Complementa el trabajo de digitalización de la operación inmobiliaria.",
+        "flow": null,
+        "client": "Proyecto inmobiliario",
+        "tags": [
+          "Desarrollo web",
+          "Diseño adaptable",
+          "CSS"
+        ]
+      },
+      "en": {
+        "name": "Real Estate Professional Website",
+        "desc": "Professional web presence for the real estate sector, presenting services and contact channels. Complements the digitization of real estate operations.",
+        "flow": null,
+        "client": "Real estate project",
+        "tags": [
+          "Web Development",
+          "Responsive UI",
+          "CSS"
+        ]
+      }
+    },
+    {
+      "id": "creative-microsite",
+      "category": "experiment",
+      "client": "Proyecto personal",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Video",
+        "Responsive UI"
+      ],
+      "es": {
+        "name": "Micrositio interactivo y multimedia",
+        "desc": "Experiencia web con navegación temática, fotografías, música y video. Evolución de varias entregas con ajustes responsive y una experiencia de reproducción de película integrada.",
+        "flow": null,
+        "client": "Proyecto personal",
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Video",
+          "Diseño adaptable"
+        ]
+      },
+      "en": {
+        "name": "Interactive Multimedia Microsite",
+        "desc": "Web experience with themed navigation, photographs, music and video. Iterative releases with responsive refinements and an integrated movie playback experience.",
+        "flow": null,
+        "client": "Personal project",
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Video",
+          "Responsive UI"
+        ]
+      }
+    },
+    {
+      "id": "aurexa-mobile",
+      "category": "product",
+      "client": "Aurexa",
+      "tags": [
+        "React Native",
+        "Expo",
+        "Node.js",
+        "PostgreSQL",
+        "JWT"
+      ],
+      "es": {
+        "name": "Aurexa — App de automatización con IA",
+        "desc": "App móvil multitenant para automatización con autenticación JWT, roles por cliente, dashboards de flujos n8n y consulta de ejecuciones. Backend Node.js y PostgreSQL en VPS.",
+        "client": "Aurexa",
+        "tags": [
+          "React Native",
+          "Expo",
+          "Node.js",
+          "PostgreSQL",
+          "JWT"
+        ]
+      },
+      "en": {
+        "name": "Aurexa — AI Automation App",
+        "desc": "Multi-tenant automation mobile app with JWT authentication, per-client roles, n8n workflow dashboards and execution monitoring. Node.js and PostgreSQL backend on a VPS.",
+        "client": "Aurexa",
+        "tags": [
+          "React Native",
+          "Expo",
+          "Node.js",
+          "PostgreSQL",
+          "JWT"
+        ]
+      }
+    },
+    {
+      "id": "neural-engine",
+      "category": "ai",
+      "client": "Aurexa",
+      "tags": [
+        "Python",
+        "NumPy",
+        "FastAPI",
+        "PostgreSQL",
+        "NLP"
+      ],
+      "es": {
+        "name": "Motor de IA Propietario",
+        "desc": "Red neuronal construida desde cero en NumPy — sin frameworks ML. Clasificación multi-intento, backend FastAPI, integración PostgreSQL. Arquitectura multi-industria.",
+        "client": "Aurexa",
+        "tags": [
+          "Python",
+          "NumPy",
+          "FastAPI",
+          "PostgreSQL",
+          "NLP"
+        ]
+      },
+      "en": {
+        "name": "Proprietary AI Engine",
+        "desc": "Neural network built from scratch in NumPy — no ML frameworks. Multi-intent classification, FastAPI backend, PostgreSQL integration. Multi-industry architecture.",
+        "client": "Aurexa",
+        "tags": [
+          "Python",
+          "NumPy",
+          "FastAPI",
+          "PostgreSQL",
+          "NLP"
+        ]
+      }
+    },
+    {
+      "id": "importex",
+      "category": "data",
+      "client": "Aurexa / UNE",
+      "tags": [
+        "n8n",
+        "PostgreSQL",
+        "SAT",
+        "Claude IA"
+      ],
+      "es": {
+        "name": "Sistema SAT Importex",
+        "desc": "Flujo n8n para procesar registros SAT de importadores y exportadores, detectar nuevos RFCs, puntuar oportunidades y almacenar resultados. Integración con fuentes como DOF, Compranet e INEGI DENUE.",
+        "client": "Aurexa / UNE",
+        "tags": [
+          "n8n",
+          "PostgreSQL",
+          "SAT",
+          "Claude IA"
+        ]
+      },
+      "en": {
+        "name": "SAT Importex Intelligence System",
+        "desc": "n8n workflow processing SAT importer and exporter records, detecting new RFCs, scoring opportunities and storing results. Integrates sources including DOF, Compranet and INEGI DENUE.",
+        "client": "Aurexa / UNE",
+        "tags": [
+          "n8n",
+          "PostgreSQL",
+          "SAT",
+          "Claude AI"
+        ]
+      }
+    },
+    {
+      "id": "whatsapp-crm",
+      "category": "ai",
+      "client": "UNE Bienes Raíces",
+      "tags": [
+        "n8n",
+        "Ollama",
+        "WhatsApp API",
+        "Google Calendar",
+        "Meta API"
+      ],
+      "es": {
+        "name": "CRM Conversacional WhatsApp",
+        "desc": "Sistema completo de gestión de propietarios vía WhatsApp con un agente de IA (Ollama), seguimiento de leads, agendamiento en Google Calendar, KPIs en Google Sheets e integración con Meta.",
+        "client": "UNE Bienes Raíces",
+        "tags": [
+          "n8n",
+          "Ollama",
+          "WhatsApp API",
+          "Google Calendar",
+          "Meta API"
+        ]
+      },
+      "en": {
+        "name": "WhatsApp Conversational CRM",
+        "desc": "Property owner management via WhatsApp with an Ollama AI agent, lead follow-up, Google Calendar scheduling, Google Sheets KPIs and Meta integrations.",
+        "client": "UNE Bienes Raíces",
+        "tags": [
+          "n8n",
+          "Ollama",
+          "WhatsApp API",
+          "Google Calendar",
+          "Meta API"
+        ]
+      }
+    },
+    {
+      "id": "property-publishing",
+      "category": "automation",
+      "client": "UNE Bienes Raíces",
+      "tags": [
+        "n8n",
+        "Monday.com",
+        "Facebook API",
+        "Instagram API"
+      ],
+      "es": {
+        "name": "Publicación Automática de Propiedades",
+        "desc": "Pipeline n8n que toma propiedades de Monday.com, genera imágenes con edición automatizada y las publica en Facebook, Instagram y WhatsApp.",
+        "client": "UNE Bienes Raíces",
+        "tags": [
+          "n8n",
+          "Monday.com",
+          "Facebook API",
+          "Instagram API"
+        ]
+      },
+      "en": {
+        "name": "Automated Property Publishing",
+        "desc": "n8n pipeline that pulls properties from Monday.com, auto-edits images, and publishes them to Facebook, Instagram and WhatsApp simultaneously.",
+        "client": "UNE Bienes Raíces",
+        "tags": [
+          "n8n",
+          "Monday.com",
+          "Facebook API",
+          "Instagram API"
+        ]
+      }
+    },
+    {
+      "id": "ytshorts",
+      "category": "automation",
+      "client": "UNE Bienes Raíces",
+      "tags": [
+        "n8n",
+        "YouTube API",
+        "Instagram Reels",
+        "Facebook",
+        "Monday.com"
+      ],
+      "es": {
+        "name": "YTSHORTS — Publicación Multicanal de Video",
+        "desc": "Flujo n8n que automatiza la publicación simultánea en YouTube Shorts, Instagram Reels y Facebook con manejo de múltiples cuentas y confirmación vía WhatsApp.",
+        "client": "UNE Bienes Raíces",
+        "tags": [
+          "n8n",
+          "YouTube API",
+          "Instagram Reels",
+          "Facebook",
+          "Monday.com"
+        ]
+      },
+      "en": {
+        "name": "YTSHORTS — Multi-Channel Video Publishing",
+        "desc": "n8n workflow automating simultaneous publishing to YouTube Shorts, Instagram Reels and Facebook across multiple accounts with WhatsApp confirmation.",
+        "client": "UNE Bienes Raíces",
+        "tags": [
+          "n8n",
+          "YouTube API",
+          "Instagram Reels",
+          "Facebook",
+          "Monday.com"
+        ]
+      }
+    },
+    {
+      "id": "vision-leads",
+      "category": "ai",
+      "client": "UNE Bienes Raíces",
+      "tags": [
+        "n8n",
+        "OpenAI Vision",
+        "Monday.com",
+        "WhatsApp API"
+      ],
+      "es": {
+        "name": "Calificación IA de Prospectos",
+        "desc": "Sistema automático que analiza fotos de propiedades con visión IA (OpenAI), califica el perfil del prospecto y envía notificaciones a los asesores por WhatsApp.",
+        "client": "UNE Bienes Raíces",
+        "tags": [
+          "n8n",
+          "OpenAI Vision",
+          "Monday.com",
+          "WhatsApp API"
+        ]
+      },
+      "en": {
+        "name": "AI Lead Qualification System",
+        "desc": "Automated system that analyzes property photos with AI vision (OpenAI), scores the prospect profile and sends WhatsApp notifications to the relevant advisor.",
+        "client": "UNE Bienes Raíces",
+        "tags": [
+          "n8n",
+          "OpenAI Vision",
+          "Monday.com",
+          "WhatsApp API"
+        ]
+      }
+    },
+    {
+      "id": "appraisals",
+      "category": "ai",
+      "client": "UNE Bienes Raíces",
+      "tags": [
+        "n8n",
+        "Ollama",
+        "Monday.com",
+        "AI Agent"
+      ],
+      "es": {
+        "name": "Motor de Avalúos Automáticos",
+        "desc": "Pipeline n8n que procesa ~400 propiedades inmobiliarias con un agente de IA para generar avalúos preliminares automatizados, publicando en Monday.com.",
+        "client": "UNE Bienes Raíces",
+        "tags": [
+          "n8n",
+          "Ollama",
+          "Monday.com",
+          "Agentes de IA"
+        ]
+      },
+      "en": {
+        "name": "Automated Appraisal Engine",
+        "desc": "n8n pipeline processing ~400 properties through an AI Agent to generate preliminary automated appraisals, publishing results to Monday.com.",
+        "client": "UNE Bienes Raíces",
+        "tags": [
+          "n8n",
+          "Ollama",
+          "Monday.com",
+          "AI Agent"
+        ]
+      }
+    },
+    {
+      "id": "une-web",
+      "category": "web",
+      "client": "UNE Bienes Raíces",
+      "tags": [
+        "React",
+        "Node.js",
+        "n8n",
+        "PostgreSQL",
+        "CRM"
+      ],
+      "es": {
+        "name": "unebienesraices.com.mx",
+        "desc": "Sitio web inmobiliario con publicación automática: cuando se sube una propiedad en el CRM, se publica en la web y redes sociales sin intervención manual.",
+        "client": "UNE Bienes Raíces",
+        "tags": [
+          "React",
+          "Node.js",
+          "n8n",
+          "PostgreSQL",
+          "CRM"
+        ]
+      },
+      "en": {
+        "name": "unebienesraices.com.mx",
+        "desc": "Real estate website with automatic publishing: when a property is added to the CRM, it is instantly published to the website and social media without manual intervention.",
+        "client": "UNE Bienes Raíces",
+        "tags": [
+          "React",
+          "Node.js",
+          "n8n",
+          "PostgreSQL",
+          "CRM"
+        ]
+      }
+    },
+    {
+      "id": "trucking-desktop",
+      "category": "product",
+      "client": "González Trucking",
+      "tags": [
+        "C#",
+        ".NET",
+        "SQL Server",
+        "Excel Automation",
+        "WinForms"
+      ],
+      "es": {
+        "name": "Apps de Escritorio — Automatización Interna",
+        "desc": "Suite de apps de escritorio conectadas al servidor interno: automatización de llenado de Excel para enfermería, ingresos y módulo de Carta Porte para contabilidad.",
+        "client": "González Trucking",
+        "tags": [
+          "C#",
+          ".NET",
+          "SQL Server",
+          "Automatización de Excel",
+          "WinForms"
+        ]
+      },
+      "en": {
+        "name": "Desktop Apps — Internal Automation",
+        "desc": "Suite of desktop apps connected to the company's internal server: automated Excel filling for nursing, new hires, and a Carta Porte module for accounting.",
+        "client": "González Trucking",
+        "tags": [
+          "C#",
+          ".NET",
+          "SQL Server",
+          "Excel Automation",
+          "WinForms"
+        ]
+      }
+    },
+    {
+      "id": "cooling-web",
+      "category": "product",
+      "client": "González Trucking",
+      "tags": [
+        "React",
+        "JavaScript",
+        "REST API",
+        "SQL Server"
+      ],
+      "es": {
+        "name": "Portal Web Interno — Cooling the World",
+        "desc": "SPA con React para Cooling the World (división de González Trucking) con la misma funcionalidad que las apps de escritorio: login, roles y acceso desde cualquier equipo de la red.",
+        "client": "González Trucking",
+        "tags": [
+          "React",
+          "JavaScript",
+          "REST API",
+          "SQL Server"
+        ]
+      },
+      "en": {
+        "name": "Internal Web Portal — Cooling the World",
+        "desc": "React SPA for Cooling the World (González Trucking division) replicating the desktop app functionality: login, roles, accessible from any machine on the network.",
+        "client": "González Trucking",
+        "tags": [
+          "React",
+          "JavaScript",
+          "REST API",
+          "SQL Server"
+        ]
+      }
+    },
+    {
+      "id": "rainde-erp",
+      "category": "product",
+      "client": "Grupo Rainde",
+      "tags": [
+        "ERP",
+        "Team Lead",
+        "C#",
+        "Arquitectura"
+      ],
+      "es": {
+        "name": "ERP Empresarial — Liderazgo Técnico",
+        "desc": "Liderazgo técnico de sistema ERP empresarial completo: coordinación del equipo de desarrollo, arquitectura y entrega de módulos de misión crítica.",
+        "client": "Grupo Rainde",
+        "tags": [
+          "ERP",
+          "Liderazgo técnico",
+          "C#",
+          "Arquitectura"
+        ]
+      },
+      "en": {
+        "name": "Enterprise ERP — Technical Leadership",
+        "desc": "Technical leadership of a full enterprise ERP system: team coordination, architecture definition, and delivery of mission-critical modules.",
+        "client": "Grupo Rainde",
+        "tags": [
+          "ERP",
+          "Team Lead",
+          "C#",
+          "Architecture"
+        ]
+      }
+    },
+    {
+      "id": "connect-food",
+      "category": "experiment",
+      "client": "Proyecto Personal",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "MySQL"
+      ],
+      "es": {
+        "name": "CONNECT-FOOD — App de pedidos de comida",
+        "desc": "Aplicación web de pedidos de comida con categorías (bebidas, comida, dulces, postres), sistema de login/registro con PHP, gestión de pedidos y base de datos MySQL.",
+        "client": "Proyecto Personal",
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "MySQL"
+        ]
+      },
+      "en": {
+        "name": "CONNECT-FOOD — Food Delivery App",
+        "desc": "Web food delivery application with categories (drinks, food, sweets, desserts), PHP login/register system, order management and MySQL database.",
+        "client": "Personal project",
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "MySQL"
+        ]
+      }
+    },
+    {
+      "id": "fighting-game",
+      "category": "experiment",
+      "client": "Proyecto Personal",
+      "tags": [
+        "JavaScript",
+        "Canvas API",
+        "Sprites",
+        "Game Dev"
+      ],
+      "es": {
+        "name": "Juego de pelea — Canvas 2D",
+        "desc": "Videojuego de pelea tipo Street Fighter con JavaScript puro y Canvas API. Sprites animados, física de combate, temporizador y sistema de salud. Sin librerías externas.",
+        "client": "Proyecto Personal",
+        "tags": [
+          "JavaScript",
+          "Canvas API",
+          "Sprites",
+          "Videojuegos"
+        ]
+      },
+      "en": {
+        "name": "Fighting Game — 2D Canvas",
+        "desc": "Street Fighter–style fighting game built with vanilla JavaScript and Canvas API. Animated sprites, combat physics, timer and health system. No external libraries.",
+        "client": "Personal project",
+        "tags": [
+          "JavaScript",
+          "Canvas API",
+          "Sprites",
+          "Game Dev"
+        ]
+      }
+    },
+    {
+      "id": "alienin",
+      "category": "experiment",
+      "client": "Proyecto Personal",
+      "tags": [
+        "JavaScript",
+        "HTML",
+        "Canvas",
+        "Game Dev"
+      ],
+      "es": {
+        "name": "AlienIn — Space Invaders",
+        "desc": "Clon de Space Invaders desarrollado en HTML/JavaScript con sprites personalizados. Movimiento de enemigos, colisiones y sistema de disparos desde cero.",
+        "client": "Proyecto Personal",
+        "tags": [
+          "JavaScript",
+          "HTML",
+          "Canvas",
+          "Videojuegos"
+        ]
+      },
+      "en": {
+        "name": "AlienIn — Space Invaders",
+        "desc": "Space Invaders clone built in HTML/JavaScript with custom sprites. Enemy movement, collisions and shooting system built from scratch.",
+        "client": "Personal project",
+        "tags": [
+          "JavaScript",
+          "HTML",
+          "Canvas",
+          "Game Dev"
+        ]
+      }
+    },
+    {
+      "id": "industrial-iot",
+      "category": "experiment",
+      "client": "IMECOMEX · Proyecto TSU",
+      "tags": [
+        "ESP32",
+        "Arduino",
+        "C++",
+        "IoT",
+        "Sensores"
+      ],
+      "es": {
+        "name": "Prototipo IoT — Inventario Industrial",
+        "desc": "Dispositivo físico basado en ESP32 para inventariar en tiempo real las líneas de producción de una fábrica. Proyecto de titulación del TSU.",
+        "client": "IMECOMEX · Proyecto TSU",
+        "tags": [
+          "ESP32",
+          "Arduino",
+          "C++",
+          "IoT",
+          "Sensores"
+        ]
+      },
+      "en": {
+        "name": "IoT Prototype — Industrial Inventory",
+        "desc": "ESP32-based device for real-time inventory tracking on factory production lines. Graduation project for the TSU degree in Multiplatform Software Development.",
+        "client": "IMECOMEX · TSU graduation project",
+        "tags": [
+          "ESP32",
+          "Arduino",
+          "C++",
+          "IoT",
+          "Sensors"
+        ]
+      }
+    }
+  ],
+  "text": {
+    "es": {
+      "skip": "Saltar al contenido",
+      "home": "Inicio",
+      "projects": "Proyectos",
+      "about": "Sobre mí",
+      "experience": "Trayectoria",
+      "contact": "Contacto",
+      "selected": "Selección reciente",
+      "industrial": "Web industrial",
+      "available": "Disponible para remoto y proyectos",
+      "menu": "Menú",
+      "hello": "Hola, soy",
+      "bio": "Construyo software que conecta la operación con la tecnología. Aplicaciones web y móviles, sistemas de datos y automatizaciones con IA para problemas reales.",
+      "viewProjects": "Explorar proyectos",
+      "talk": "Hablemos",
+      "note": "De hardware industrial<br>a productos con IA.",
+      "years": "años en software",
+      "portfolioProjects": "proyectos en el portafolio",
+      "english": "inglés",
+      "remote": "disponible para remoto",
+      "workLabel": "02 / TRABAJO",
+      "workTitle": "Lo que he construido.",
+      "workIntro": "Productos, integraciones y experimentos. Cada proyecto cuenta una parte de mi recorrido: de la operación empresarial a la inteligencia artificial.",
+      "archive": "Archivo de proyectos",
+      "searchLabel": "Buscar",
+      "empty": "No hay proyectos con esa búsqueda. Prueba otra tecnología o categoría.",
+      "aboutLabel": "03 / PERFIL",
+      "aboutTitle": "Entre el código<br>y la operación.",
+      "aboutText": "Soy Marcos Cervantes Armada, ingeniero de software en Aguascalientes y cofundador de AUREXA. Trabajo en la intersección del desarrollo full stack, la integración de sistemas y la automatización con inteligencia artificial.",
+      "aboutText2": "Mi experiencia incluye transporte, sistemas empresariales, bienes raíces, lanzamientos digitales e industria. He construido herramientas para usuarios internos, coordinado equipos de desarrollo y conectado procesos que antes dependían de trabajo manual.",
+      "aboutText3": "Me interesa entender el problema completo: cómo entra la información, quién la necesita y qué debe pasar después. Desde ahí diseño, desarrollo e integro el sistema.",
+      "education": "Formación",
+      "degree": "Ingeniería en Desarrollo de Software<br>Universidad Tecnológica de Aguascalientes",
+      "languages": "Idiomas",
+      "languageLevel": "Español nativo · Inglés C1",
+      "toolsLabel": "HERRAMIENTAS DE TRABAJO",
+      "experienceLabel": "04 / TRAYECTORIA",
+      "experienceTitle": "Un recorrido conectado.",
+      "contactLabel": "05 / SIGUIENTE PROYECTO",
+      "contactTitle": "Construyamos<br>algo útil<span>·</span>",
+      "contactText": "Busco oportunidades remotas en desarrollo de software, IA e integraciones. También colaboro en proyectos que necesitan convertir una idea o un proceso en un sistema funcional.",
+      "backTop": "Volver al inicio",
+      "close": "Cerrar",
+      "case": "Ver proyecto",
+      "problem": "El problema",
+      "built": "Mi contribución",
+      "result": "El entregable",
+      "tech": "Tecnologías",
+      "visit": "Ver sitio",
+      "cv": "Descargar CV",
+      "searchPlaceholder": "Tecnología, proyecto o sector",
+      "count": "proyectos",
+      "all": "Todos",
+      "product": "Productos",
+      "ai": "IA",
+      "automation": "Automatización",
+      "data": "Datos",
+      "web": "Web",
+      "experiment": "Experimentos",
+      "identitySubtitle": "Software / IA / Automatización",
+      "heroEyebrow": "INGENIERO DE SOFTWARE / COFUNDADOR DE AUREXA",
+      "edition": "PORTAFOLIO — 2026",
+      "professionalRole": "Ingeniero de software full stack<br><span>Especialista en IA y automatización</span>",
+      "workshopStack": "CRM · IA · n8n",
+      "ideaToSystem": "{ idea → sistema }",
+      "stack0": "Frontend y aplicaciones móviles",
+      "stack1": "Backend y APIs",
+      "stack2": "IA y automatización",
+      "stack3": "Datos",
+      "stack4": "Infraestructura",
+      "stack5": "Integraciones e IoT",
+      "identityAria": "Marcos Cervantes, inicio",
+      "navAria": "Navegación principal",
+      "mobileNavAria": "Navegación móvil",
+      "systemsLabel": "DETRÁS DE LOS PROYECTOS",
+      "systemsTitle": "Así conecto los sistemas.",
+      "architecture": "Arquitectura resumida",
+      "copyEmail": "Copiar correo"
+    },
+    "en": {
+      "skip": "Skip to content",
+      "home": "Home",
+      "projects": "Projects",
+      "about": "About",
+      "experience": "Experience",
+      "contact": "Contact",
+      "selected": "Recent selection",
+      "industrial": "Industrial website",
+      "available": "Open to remote roles and projects",
+      "menu": "Menu",
+      "hello": "Hi, I’m",
+      "bio": "I build software that connects operations with technology. Web and mobile applications, data systems and AI automations for real business problems.",
+      "viewProjects": "Explore projects",
+      "talk": "Let’s talk",
+      "note": "From industrial hardware<br>to AI-powered products.",
+      "years": "years in software",
+      "portfolioProjects": "portfolio projects",
+      "english": "English",
+      "remote": "open to remote work",
+      "workLabel": "02 / WORK",
+      "workTitle": "Things I’ve built.",
+      "workIntro": "Products, integrations and experiments. Each project tells part of my journey: from business operations to artificial intelligence.",
+      "archive": "Project archive",
+      "searchLabel": "Search",
+      "empty": "No projects match your search. Try another technology or category.",
+      "aboutLabel": "03 / ABOUT",
+      "aboutTitle": "Between code<br>and operations.",
+      "aboutText": "I’m Marcos Cervantes Armada, a software engineer based in Aguascalientes and co-founder of AUREXA. I work at the intersection of full-stack development, systems integration and AI automation.",
+      "aboutText2": "My experience spans transportation, enterprise systems, real estate, digital course launches and manufacturing. I’ve built internal tools, coordinated development teams and connected processes that previously depended on manual work.",
+      "aboutText3": "I like to understand the whole problem: how information enters, who needs it and what should happen next. From there, I design, develop and integrate the system.",
+      "education": "Education",
+      "degree": "Software Development Engineering<br>Universidad Tecnológica de Aguascalientes",
+      "languages": "Languages",
+      "languageLevel": "Native Spanish · C1 English",
+      "toolsLabel": "TOOLS I WORK WITH",
+      "experienceLabel": "04 / EXPERIENCE",
+      "experienceTitle": "A connected journey.",
+      "contactLabel": "05 / NEXT PROJECT",
+      "contactTitle": "Let’s build<br>something useful<span>·</span>",
+      "contactText": "I’m looking for remote opportunities in software engineering, AI and integrations. I also collaborate on projects that need to turn an idea or a process into a working system.",
+      "backTop": "Back to top",
+      "close": "Close",
+      "case": "Explore project",
+      "problem": "The problem",
+      "built": "My contribution",
+      "result": "The deliverable",
+      "tech": "Technologies",
+      "visit": "Visit website",
+      "cv": "Download résumé",
+      "searchPlaceholder": "Technology, project or industry",
+      "count": "projects",
+      "all": "All",
+      "product": "Products",
+      "ai": "AI",
+      "automation": "Automation",
+      "data": "Data",
+      "web": "Web",
+      "experiment": "Experiments",
+      "identitySubtitle": "Software / AI / Automation",
+      "heroEyebrow": "SOFTWARE ENGINEER / CO-FOUNDER AT AUREXA",
+      "edition": "PORTFOLIO — 2026",
+      "professionalRole": "Full-Stack Engineer<br><span>AI & Automation Specialist</span>",
+      "workshopStack": "CRM · AI · n8n",
+      "ideaToSystem": "{ idea → system }",
+      "stack0": "Frontend & mobile",
+      "stack1": "Backend & APIs",
+      "stack2": "AI & automation",
+      "stack3": "Data",
+      "stack4": "Infrastructure",
+      "stack5": "Integrations & IoT",
+      "identityAria": "Marcos Cervantes, home",
+      "navAria": "Main navigation",
+      "mobileNavAria": "Mobile navigation",
+      "systemsLabel": "BEHIND THE PROJECTS",
+      "systemsTitle": "How I connect systems.",
+      "architecture": "Architecture overview",
+      "copyEmail": "Copy email"
+    }
+  },
+  "timeline": [
+    {
+      "es": [
+        "2026 — presente",
+        "Cofundador · Desarrollo de software e IA",
+        "AUREXA",
+        "Productos web y móviles, automatización empresarial e integración de CRM, marketing, clientes y datos."
+      ],
+      "en": [
+        "2026 — present",
+        "Co-founder · Software & AI Development",
+        "AUREXA",
+        "Web and mobile products, business automation and integration of CRM, marketing, clients and data."
+      ]
+    },
+    {
+      "es": [
+        "Ago — Sep 2026",
+        "Desarrollo, IA y automatización",
+        "Workshop / Eagles Gear",
+        "CRM, campus, migraciones SQL, flujos n8n, ManyChat con IA, reportes e integraciones para lanzamientos digitales."
+      ],
+      "en": [
+        "Aug — Sep 2026",
+        "Development, AI & Automation",
+        "Workshop / Eagles Gear",
+        "CRM, learning platform, SQL migrations, n8n workflows, ManyChat with AI, reporting and integrations for digital launches."
+      ]
+    },
+    {
+      "es": [
+        "Mar 2024 — Mar 2026",
+        "Especialista en IA y Automatización",
+        "UNE Bienes Raíces · Freelance",
+        "Bot de WhatsApp con enrutamiento de cinco intenciones para más de 470 propiedades. Pipelines Python/PostgreSQL, panel multi-tenant y migración a VPS Linux. Parser de PDF con aproximadamente 103,000 registros para un cliente bancario."
+      ],
+      "en": [
+        "Mar 2024 — Mar 2026",
+        "AI & Automation Specialist",
+        "UNE Bienes Raíces · Freelance",
+        "Five-intent WhatsApp routing for 470+ properties. Python/PostgreSQL pipelines, a multi-tenant admin panel and Linux VPS migration. PDF parser handling approximately 103,000 records for a banking-sector client."
+      ]
+    },
+    {
+      "es": [
+        "2024 — 2025",
+        "Docente de Tecnología",
+        "Colegio Montessori",
+        "Clases de programación y tecnología adaptadas al modelo Montessori, orientadas al pensamiento computacional."
+      ],
+      "en": [
+        "2024 — 2025",
+        "Technology Teacher",
+        "Colegio Montessori",
+        "Programming and technology classes adapted to the Montessori model, focused on computational thinking."
+      ]
+    },
+    {
+      "es": [
+        "Jun — Ago 2024",
+        "Líder Técnico",
+        "Grupo Rainde",
+        "Coordinación de practicantes, sprints y revisiones de código. Entrega de un proyecto en un mes frente a tres previstos; reportes, scripts SQL y procedimientos almacenados para ERP."
+      ],
+      "en": [
+        "Jun — Aug 2024",
+        "Technical Lead",
+        "Grupo Rainde",
+        "Intern coordination, sprint management and code reviews. Delivered a project in one month against a three-month scope; ERP reporting, SQL scripts and stored procedures."
+      ]
+    },
+    {
+      "es": [
+        "Abr 2023 — Jun 2024",
+        "Analista de TI / Desarrollador Full-Stack",
+        "González Trucking",
+        "Portal web y aplicaciones de operaciones internas, APIs REST, procesamiento de datos y automatización con Python. Desarrollo con React, C#/.NET y SQL Server."
+      ],
+      "en": [
+        "Apr 2023 — Jun 2024",
+        "IT Analyst / Full-Stack Developer",
+        "González Trucking",
+        "Internal operations web portal and applications, REST APIs, data processing and Python automation. Development with React, C#/.NET and SQL Server."
+      ]
+    },
+    {
+      "es": [
+        "Sep — Dic 2022",
+        "Practicante de Supervisión de Producción y Desarrollo de Software",
+        "IMECOMEX",
+        "Supervisión de líneas de fabricación de arneses eléctricos, seguimiento de producción, desarrollo en Java, prototipo Arduino UNO y soporte técnico."
+      ],
+      "en": [
+        "Sep — Dec 2022",
+        "Production Supervision & Software Development Intern",
+        "IMECOMEX",
+        "Wire harness production line supervision, production tracking, Java development, an Arduino UNO prototype and technical support."
+      ]
+    },
+    {
+      "es": [
+        "2023 — 2025",
+        "Ingeniería en Desarrollo de Software",
+        "Universidad Tecnológica de Aguascalientes",
+        "Formación en desarrollo de software, arquitectura y gestión de proyectos. TSU en Desarrollo de Software Multiplataforma, 2021–2022."
+      ],
+      "en": [
+        "2023 — 2025",
+        "Software Development Engineering",
+        "Universidad Tecnológica de Aguascalientes",
+        "Software development, architecture and project management. TSU in Multiplatform Software Development, 2021–2022."
+      ]
+    }
+  ],
+  "stack": [
+    [
+      "Frontend & mobile",
+      "React · Next.js · React Native · Expo · HTML / CSS · JavaScript"
+    ],
+    [
+      "Backend & APIs",
+      "Node.js · Python · FastAPI · C# / .NET · REST · Webhooks"
+    ],
+    [
+      "AI & automation",
+      "n8n · ManyChat · LLMs · Ollama · OpenAI · Claude API · NumPy · RAG"
+    ],
+    [
+      "Data",
+      "PostgreSQL · Supabase · SQL Server / T-SQL · MongoDB · ETL"
+    ],
+    [
+      "Infrastructure",
+      "Linux VPS · Docker · nginx · PM2 · Vercel · Git"
+    ],
+    [
+      "Integrations & IoT",
+      "Monday.com · Twilio · Meta APIs · Google Apps Script · Puppeteer · ESP32 · Arduino"
+    ]
+  ],
+  "architectures": [
+    {
+      "project": "whatsapp-crm",
+      "es": {
+        "title": "Bienes raíces",
+        "steps": [
+          [
+            "Entrada",
+            "WhatsApp"
+          ],
+          [
+            "Enrutamiento IA",
+            "n8n · Ollama"
+          ],
+          [
+            "Gestión de leads",
+            "CRM · Monday.com"
+          ],
+          [
+            "Seguimiento",
+            "Asesores · Calendar"
+          ]
+        ],
+        "desc": "Una conversación entra por WhatsApp, se clasifica según la intención y se conecta con la gestión de prospectos. El equipo consulta la información y continúa el seguimiento con avisos y agenda."
+      },
+      "en": {
+        "title": "Real estate",
+        "steps": [
+          [
+            "Input",
+            "WhatsApp"
+          ],
+          [
+            "AI routing",
+            "n8n · Ollama"
+          ],
+          [
+            "Lead management",
+            "CRM · Monday.com"
+          ],
+          [
+            "Follow-up",
+            "Advisors · Calendar"
+          ]
+        ],
+        "desc": "A WhatsApp conversation is classified by intent and connected to lead management. The team accesses the information and continues follow-up through notifications and scheduling."
+      }
+    },
+    {
+      "project": "workshop-crm",
+      "es": {
+        "title": "Lanzamientos",
+        "steps": [
+          [
+            "Captación",
+            "Meta Lead Ads"
+          ],
+          [
+            "Operación comercial",
+            "Next.js · Supabase"
+          ],
+          [
+            "Atención contextual",
+            "ManyChat · n8n · IA"
+          ],
+          [
+            "Experiencia educativa",
+            "Campus · Cursos"
+          ]
+        ],
+        "desc": "Conecto las fuentes de prospectos con el CRM del lanzamiento, los flujos de atención y el campus. La información comercial y educativa tiene una base común para coordinar el trabajo."
+      },
+      "en": {
+        "title": "Course launches",
+        "steps": [
+          [
+            "Lead capture",
+            "Meta Lead Ads"
+          ],
+          [
+            "Sales operations",
+            "Next.js · Supabase"
+          ],
+          [
+            "Contextual support",
+            "ManyChat · n8n · AI"
+          ],
+          [
+            "Learning experience",
+            "Campus · Courses"
+          ]
+        ],
+        "desc": "I connect lead sources with the launch CRM, support workflows and learning platform. Sales and educational information share a common foundation for coordinating operations."
+      }
+    },
+    {
+      "project": "pdf-parser",
+      "es": {
+        "title": "Datos y documentos",
+        "steps": [
+          [
+            "Fuente",
+            "Documentos PDF"
+          ],
+          [
+            "Procesamiento",
+            "Python · Limpieza"
+          ],
+          [
+            "Persistencia",
+            "PostgreSQL"
+          ],
+          [
+            "Consulta",
+            "BI · Dashboard"
+          ]
+        ],
+        "desc": "Transformo documentos en registros estructurados: extracción, limpieza, deduplicación y almacenamiento. Después, un dashboard permite consultar y analizar la información."
+      },
+      "en": {
+        "title": "Data & documents",
+        "steps": [
+          [
+            "Source",
+            "PDF documents"
+          ],
+          [
+            "Processing",
+            "Python · Cleaning"
+          ],
+          [
+            "Persistence",
+            "PostgreSQL"
+          ],
+          [
+            "Analysis",
+            "BI · Dashboard"
+          ]
+        ],
+        "desc": "I turn documents into structured records through extraction, cleaning, deduplication and storage. A dashboard then makes the information available for analysis."
+      }
+    }
+  ]
+}
