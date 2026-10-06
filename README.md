@@ -1,46 +1,62 @@
-# Marcos Cervantes — Professional Portfolio
+# Marcos Cervantes — Software, AI & Automation
 
-**Software Engineering · Full Stack Development · AI & Automation**
+Bilingual professional portfolio, migrated to **React + Vite**. Includes 30 projects, four detailed case studies, searchable project archive, system architecture tabs, experience, and downloadable CVs.
 
-[View live portfolio →](https://mi-portafolio-xi-hazel.vercel.app) · [GitHub profile](https://github.com/MarcosCervantes210009)
+## What changed
 
-## Overview
+- The updated portfolio design and content are now React components.
+- Animated ambient lights and an orbital accent behind the hero.
+- A moving technology ribbon, staggered section reveals, an animated project counter, and interactive project cards.
+- Preserved portrait, English/Spanish, dark/light themes, architecture tabs and CV downloads.
+- Motion effects respect `prefers-reduced-motion`; ambient graphics are decorative.
+- Images are separate assets instead of embedded base64 inside the application source.
+- Correct GitHub profile link and page/social metadata.
 
-My personal portfolio, built to present my software development work and professional background in one place. It is the entry point to explore my projects and experience in web development, integrations, and workflow automation.
+## Development
 
-## Technology
-
-| Layer | Tools |
-| --- | --- |
-| Interface | React, JavaScript, CSS |
-| Development and build | Vite |
-| Code quality | ESLint |
-| Hosting | Vercel |
-
-## Run locally
-
-Install a current Node.js LTS version, then run:
+Use Node.js 22.12 or later:
 
 ```bash
 npm ci
 npm run dev
 ```
 
-Open the local URL printed by Vite.
+```bash
+npm run build
+npm run preview
+npm run lint
+```
 
-## Available commands
+## Vercel
 
-| Command | Purpose |
+Use the existing portfolio repository and Vercel project to retain the domain.
+
+- Framework: **Vite**
+- Build command: `npm run build`
+- Output directory: `dist`
+- Install command: `npm ci`
+
+This package includes editable source and a production build. It does not change the live Vercel project until its source is published to the connected repository.
+
+## Editing
+
+| File | Purpose |
 | --- | --- |
-| npm run dev | Start the development server |
-| npm run build | Generate the production build |
-| npm run preview | Preview the production build locally |
-| npm run lint | Run ESLint |
+| `src/App.jsx` | React components and interactions |
+| `src/content.json` | Project catalog, languages, experience and architecture |
+| `src/style.css` | Base layout and responsive design |
+| `src/enhancements.css` | Themes and interaction styles |
+| `src/motion.css` | Additional ambient and interactive motion |
+| `public/images/marcos.jpg` | Original portrait |
+| `public/cv/` | Original English and Spanish CVs |
+| `index.html` | Metadata and application entry |
+
+Experience dates and claims are preserved from the supplied updated portfolio and CV. The original CV PDFs have not been rewritten. Private client code, credentials and workflow exports are not included.
+
+## Validation
+
+Production build and ESLint passed. Component interaction checks covered project counts, language switching, persisted theme, category filters, case dialogs, keyboard navigation for architecture tabs, mobile menu, and language-specific CV links.
 
 ## Español
 
-Portafolio profesional de **Marcos Cervantes**, ingeniero en desarrollo de software enfocado en desarrollo web, IA y automatización. Este proyecto reúne mi presentación profesional y sirve como punto de entrada para conocer mi trabajo.
-
-Desarrollado con **React y Vite** y publicado en **Vercel**.
-
-[Visita el portafolio →](https://mi-portafolio-xi-hazel.vercel.app)
+Portafolio profesional de Marcos Cervantes, desarrollado en React y Vite, con proyectos de software, IA y automatización. La versión incluye nuevas animaciones, mantiene la fotografía original y adapta los controles y casos al español e inglés. Para publicar en el proyecto existente de Vercel, utiliza el framework Vite y la carpeta de salida `dist`.
