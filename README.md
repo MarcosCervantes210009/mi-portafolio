@@ -1,16 +1,46 @@
-# React + Vite
+# Marcos Cervantes — Professional Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Software Engineering · Full Stack Development · AI & Automation**
 
-Currently, two official plugins are available:
+[View live portfolio →](https://mi-portafolio-xi-hazel.vercel.app) · [GitHub profile](https://github.com/MarcosCervantes210009)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+My personal portfolio, built to present my software development work and professional background in one place. It is the entry point to explore my projects and experience in web development, integrations, and workflow automation.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technology
 
-## Expanding the ESLint configuration
+| Layer | Tools |
+| --- | --- |
+| Interface | React, JavaScript, CSS |
+| Development and build | Vite |
+| Code quality | ESLint |
+| Hosting | Vercel |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run locally
+
+Install a current Node.js LTS version, then run:
+
+```bash
+npm ci
+npm run dev
+```
+
+Open the local URL printed by Vite.
+
+## Available commands
+
+| Command | Purpose |
+| --- | --- |
+| npm run dev | Start the development server |
+| npm run build | Generate the production build |
+| npm run preview | Preview the production build locally |
+| npm run lint | Run ESLint |
+
+## Español
+
+Portafolio profesional de **Marcos Cervantes**, ingeniero en desarrollo de software enfocado en desarrollo web, IA y automatización. Este proyecto reúne mi presentación profesional y sirve como punto de entrada para conocer mi trabajo.
+
+Desarrollado con **React y Vite** y publicado en **Vercel**.
+
+[Visita el portafolio →](https://mi-portafolio-xi-hazel.vercel.app)
