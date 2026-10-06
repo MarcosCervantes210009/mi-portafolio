@@ -1,6 +1,6 @@
 # Marcos Cervantes — Software, AI & Automation
 
-Bilingual professional portfolio, migrated to **React + Vite**. Includes 30 projects, four detailed case studies, searchable project archive, system architecture tabs, experience, and downloadable CVs.
+Bilingual professional portfolio, migrated to **React + Vite**. Includes 27 projects, four featured projects, searchable project archive, system architecture tabs, experience, and downloadable CVs.
 
 ## What changed
 
